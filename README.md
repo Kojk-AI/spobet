@@ -41,6 +41,10 @@ Further details on the implementation and results discussion can be found in htt
 
 ## Trained Weights
 
+|                 | Top 1 | Top 5 | Top 10 |
+|-----------------|-------|-------|--------|
+| [SPOBET (ASL100)](https://drive.google.com/file/d/18X35zpWx7rTnWz2m1EqAc2SpwIlaEKgV/view?usp=sharing) |63.95% | 87.98%| 91.86% |
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
