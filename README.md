@@ -8,7 +8,6 @@ Pose-based word-level sign language recognition with BERT-style transformer
 
   This repository implements, using Keras, a pose-based, word-level sign language recognition with BERT-style transformer.
 
-- Required environment and packages are contained in the Docker image provided. Docker build file will also be provided
 - Model is trained on WLASL 2D pose data, on the ASL100 split. https://github.com/dxli94/WLASL
 - Model is built with Keras layers; highly transferable and configurable 
 - Comparable* accuracy levels achieved on the ASL100 split as compared to other pose-based word-level sign language recognition models
@@ -17,17 +16,13 @@ Further details on the implementation and results discussion can be found in htt
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Using the repo -->
+<!-- Using the Repo -->
 
-## Using the repo
+## Using the Repo
 
 ### Getting Started
 
-The pre-built Docker container can be pulled 
 
-```
-docker pull kojkai/
-```
 <br/>
 
 ### Training
@@ -39,6 +34,12 @@ docker pull kojkai/
 <br/>
 
 ### Inferencing
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Trained Weights -->
+
+## Trained Weights
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
