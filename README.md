@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 # SPOBET
-Pose-based word-level sign language recognition with BERT-style transformer
+Pose-based word-level sign language recognition with BERT-style transformer in Keras
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
