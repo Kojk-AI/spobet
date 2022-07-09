@@ -62,7 +62,7 @@ This repo does not include the implementation of OpenPose to retrieve the keypoi
 1. Retrieve keypoints usng OpenPose
 2. Format the results similar to those in WLASL
 3. Create a "split" file with the neccesary information. I.e. video_id (annotation folder must be of the same name), start_frame and end_frame (each annotation file is named according to the frame number), and the train/test split be equals to "test"
-4. In dataconfig.cfg, set SHOW_RES = 1. This will print out the inference results at the end of evaluation.
+4. In dataconfig.cfg, set SHOW_RES = 1. This will print out the inference results at the end of evaluation. The res is shown as a list of predicted labels, from the lowest probability to the highest. I.e the label with the highest probability is res[-1].
 4. Run evaluation as per normal 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
